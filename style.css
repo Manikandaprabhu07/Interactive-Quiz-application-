@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1f1f1f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+
+.start-screen, .quiz-container {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.quiz-container {
+  background: #292929;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #ffa726;
+}
+
+#options {
+  list-style: none;
+  padding: 0;
+}
+
+#options li {
+  background: #424242;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#options li:hover {
+  background: #616161;
+  transform: scale(1.03);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+#next-btn, #start-btn {
+  padding: 10px 20px;
+  background: #ffa726;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.2s ease;
+}
+
+#next-btn:hover, #start-btn:hover {
+  transform: scale(1.05);
+}

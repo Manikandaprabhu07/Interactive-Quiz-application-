@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="start-screen" id="start-screen">
+    <h1>Welcome to the  Quiz application</h1>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <div class="quiz-container" id="quiz-container" style="display:none;">
+    <h1>Mani Quiz App</h1>
+    <div id="quiz">
+      <div id="question">Question text</div>
+      <ul id="options">
+        <!-- Options will be loaded here -->
+      </ul>
+      <button id="next-btn">Next</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
