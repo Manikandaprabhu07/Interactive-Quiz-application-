@@ -22,4 +22,4 @@ This is a dynamic quiz web app built using HTML, CSS, and JavaScript as part of 
 3. Start answering questions!
 
 ---
-**Completion certificate will be issued by CODTECH upon successful submission.**
+## 🗂️Quiz outputs
