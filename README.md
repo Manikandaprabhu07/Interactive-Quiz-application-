@@ -1,4 +1,4 @@
-# 🧠 CODTECH Internship Task 1 - Interactive Quiz App
+# 🧠 Interactive Quiz App
 
 ## 🚀 Project Overview
 This is a dynamic quiz web app built using HTML, CSS, and JavaScript as part of the CODTECH Internship. Users can answer multiple-choice questions and receive instant feedback.
